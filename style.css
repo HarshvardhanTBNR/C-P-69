@@ -26,12 +26,25 @@ background-color: crimson;
     font-size:25px;
     text-decoration:underline;
     color: blue;}
-pics div{
-text-align: center;
-}
 #library{
 height: 90px;
 }
 #auditorium{
 height: 90px;
+}
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
 }
